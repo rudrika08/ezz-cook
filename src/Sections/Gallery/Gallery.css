@@ -5,17 +5,19 @@
 .food-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    
     padding: 20px;
   }
-  h1{
+  .h1{
     color: #1A1A19;
   }
+  
   .gallery-item {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     transition: transform 0.3s ease;
+    width: 85%;
   }
   
   .gallery-item:hover {

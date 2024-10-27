@@ -8,6 +8,9 @@
     background-color: #1A1A19;
     color: #dcd0c0;
   }
+  .navbar span{
+    color: #859F3D;
+  }
   
   .navbar-logo a {
     font-size: 1.5rem;
@@ -66,5 +69,6 @@
       width: 10px;
   
     }
+
   }
   
