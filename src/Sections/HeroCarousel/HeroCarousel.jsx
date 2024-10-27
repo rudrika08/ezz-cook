@@ -4,11 +4,11 @@ import './HeroCarousel.css';
 
 const HeroCarousel = () => {
   const images = [
-    "https://static.vecteezy.com/system/resources/previews/036/804/331/non_2x/ai-generated-assorted-indian-food-on-dark-wooden-background-free-photo.jpg",
+    "https://cdn.pixabay.com/photo/2021/11/01/15/52/spring-roll-6760871_1280.jpg",
     "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?cs=srgb&dl=pexels-ash-craig-122861-376464.jpg&fm=jpg",
-    "https://img.freepik.com/free-photo/close-up-street-food-neon-light_23-2151571607.jpg",
-    "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg?w=1155&h=1528",
-    "https://img.freepik.com/premium-photo/culinary-creations-culinary-mastery-gastronomic-art-delicious-visuals-tasty-delights-food-aesth_497046-451.jpg"
+    "https://cdn.pixabay.com/photo/2024/03/30/21/10/ai-generated-8665555_1280.png",
+    "https://t4.ftcdn.net/jpg/08/34/72/53/360_F_834725365_IVCNLYN4MORZbqXrtsx2qlB0SS6wPNw1.jpg",
+    "https://images.unsplash.com/photo-1709429790175-b02bb1b19207?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBsYXRlZCUyMGZvb2R8ZW58MHx8MHx8fDA%3D"
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

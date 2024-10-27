@@ -8,7 +8,9 @@
     gap: 20px;
     padding: 20px;
   }
-  
+  h1{
+    color: #1A1A19;
+  }
   .gallery-item {
     position: relative;
     overflow: hidden;
@@ -38,7 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #CBD2A4;
     font-size: 1.5rem;
     transition: opacity 0.3s ease;
     border-radius: 8px;
