@@ -3,10 +3,15 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    width: 250px;
+    width: 280px;
     margin: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   
   .recipe-image {
@@ -32,6 +37,7 @@
     cursor: pointer;
     border-radius: 4px;
     margin-top: 10px;
+    width: 80%;
     
   }
   
