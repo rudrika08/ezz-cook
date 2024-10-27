@@ -13,7 +13,7 @@
   
   .modal-content {
     background-color: #fff;
-    padding: 20px;
+    padding: 15px;
     width: 80%;
     max-width: 600px;
     border-radius: 8px;
@@ -24,21 +24,52 @@
     overflow-y: auto;
 
   }
-  
+  .modal-content h2{
+    margin: 10px 0; 
+    font-size: 1.5em; 
+    color: #1A1A19;
+  }
+  .modal-content p{
+    color: #1A1A19;
+    text-align: center;
+  }
+  .modal-content h4{
+    color: #1A1A19;
+    text-align:center;
+    font-size: 1.5rem;
+  }
+  .modal-content ul{
+    color: #1A1A19;
+  }
+  .modal-content li{
+    color: #1A1A19;
+    text-align:left;
+  }
   .close-button {
     position: absolute;
-    top: 2px;
-    right: -280px;
-    background: none;
+    top: 10px;
+    right: 10px;
+    width: 30px;         /* Smaller width */
+    height: 30px;        /* Smaller height */
+    background: transparent;
     border: none;
-    font-size: 1em;
+    font-size: 18px;     /* Adjust font size */
+    color: #333;
     cursor: pointer;
+    border-radius: 80%;  /* Makes the button circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
   }
   
-  .modal-image {
-    width: 100%;
-    height: auto;
+  .close-button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Add a subtle hover effect */
+  }
+  
+  
+  .modal-image {  
     border-radius: 8px;
-    aspect-ratio: 5/6;
+    aspect-ratio: 2/2;
   }
   

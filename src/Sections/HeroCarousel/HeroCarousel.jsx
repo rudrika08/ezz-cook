@@ -32,7 +32,7 @@ const HeroCarousel = () => {
       ))}
       <div className="carousel-overlay">
         <h1>Welcome to EzzCook</h1>
-        <p>Explore delicious recipes and culinary inspiration.</p>
+        <p>Explore delicious recipes and culinary inspiration</p>
       </div>
     </section>
   );
