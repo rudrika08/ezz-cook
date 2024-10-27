@@ -7,6 +7,9 @@ import RecipeBook from './Pages/RecipieList/RecipieList';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Layouts/Footer/Footer';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 const App = () => {
   return (
