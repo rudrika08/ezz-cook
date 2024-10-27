@@ -2,7 +2,7 @@
 
 .contact-section {
     padding: 2rem;
-    background-color: #f5f5f5;
+    background-color: #F6FCDF;
     text-align: center;
     color: #333;
     margin: 2rem auto;
@@ -18,7 +18,7 @@
   .contact-section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #ff6347; /* Tomato color */
+    color: #1A1A19; 
   }
   
   .contact-section p {
@@ -36,27 +36,31 @@
   .contact-form textarea {
     padding: 0.75rem;
     font-size: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid #f6f0f0;
     border-radius: 4px;
     width: 100%;
+    background-color: #CBD2A4;
   }
   
   .contact-form textarea {
     resize: vertical;
     min-height: 100px;
+    background-color: #CBD2A4;
   }
   
   .contact-form button {
     padding: 0.75rem;
     font-size: 1rem;
-    background-color: #ff6347;
+    background-color: #1A1A19;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 100%;
+    margin-left: 10px;
   }
   
   .contact-form button:hover {
-    background-color: #e5533d;
+    background-color: #C6DCBA;
   }

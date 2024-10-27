@@ -8,12 +8,7 @@ const About = () => {
     <div className="about">
       <h2>About EzzCook</h2>
       <p>
-        Welcome to <strong>EzzCook</strong>! Our mission is to help you explore, share, and enjoy a wide variety of recipes from around the world. 
-        Whether you're a seasoned chef or a beginner in the kitchen, we aim to make cooking accessible, fun, and rewarding.
-      </p>
-      <p>
-        Here, you can browse popular recipes and even save your favorites. Get inspired, try new flavors, and let EzzCook
-        guide you on your culinary journey!
+      Welcome to <strong>EzzCook!</strong> Our mission is to make cooking an enjoyable and accessible journey for everyone, from beginners to seasoned chefs. Dive into a diverse collection of global recipes, featuring easy-to-follow instructions and ingredient lists. At EzzCook, you can explore your culinary interests and accessing trending, seasonal, or diet-friendly options. We’re more than just recipes – we’re a community of food enthusiasts here to inspire and support your kitchen adventures. Join EzzCook, discover new flavors, and turn every meal into a memorable experience!
       </p>
     </div>
     </section>

@@ -27,10 +27,11 @@
   .recipe-title {
     font-size: 1.2em;
     margin: 0 0 8px;
+    color: #1A1A19;
   }
   
   .know-more-button {
-    background-color: #007bff;
+    background-color: #31511E;
     color: #fff;
     border: none;
     padding: 8px 16px;
