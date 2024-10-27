@@ -1,0 +1,68 @@
+/* src/components/Navbar/Navbar.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #1A1A19;
+    color: #dcd0c0;
+  }
+  
+  .navbar-logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #bdce91;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #bdce91;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  
+  .navbar-links a {
+    color: #859F3D;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #F6FCDF; /* Highlight color */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px; /* Adjust based on navbar height */
+      right: 0;
+      background-color: #272727;
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  
+    .navbar-links.open {
+      display: flex;
+    }
+  
+    .menu-icon {
+      display: block;
+      width: 10px;
+  
+    }
+  }
+  
