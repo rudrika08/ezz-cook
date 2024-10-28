@@ -42,7 +42,7 @@
   }
   
   .navbar-links a:hover {
-    color: #F6FCDF; /* Highlight color */
+    color: #F6FCDF; 
   }
   
   /* Responsive Styles */
@@ -51,7 +51,7 @@
       display: none;
       flex-direction: column;
       position: absolute;
-      top: 60px; /* Adjust based on navbar height */
+      top: 60px;
       right: 0;
       background-color: #272727;
       width: 100%;

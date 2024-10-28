@@ -2,7 +2,7 @@
 
 .footer {
     padding: 1.5rem 2rem;
-    background-color: #1A1A19; /* Dark background color */
+    background-color: #1A1A19; 
     color: #fff;
     text-align: center;
     display: flex;
@@ -27,7 +27,7 @@
   }
   
   .footer-links a:hover {
-    color: #dbd2ac; /* Highlight color */
+    color: #dbd2ac;
   }
   
   .footer-text {

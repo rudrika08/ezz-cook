@@ -49,14 +49,14 @@
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 30px;         /* Smaller width */
-    height: 30px;        /* Smaller height */
+    width: 30px;       
+    height: 30px;        
     background: transparent;
     border: none;
-    font-size: 18px;     /* Adjust font size */
+    font-size: 18px;    
     color: #333;
     cursor: pointer;
-    border-radius: 80%;  /* Makes the button circular */
+    border-radius: 80%;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +64,7 @@
   }
   
   .close-button:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Add a subtle hover effect */
+    background-color: rgba(0, 0, 0, 0.1); 
   }
   
   
