@@ -93,7 +93,7 @@ Contributions are welcome! If you'd like to enhance the features or fix any issu
 
 ## Acknowledgments
 
-This project was created as part of a recruitment process for the Front-End Developers (FED) society at KIIT University. Special thanks to all mentors and peers for their support and feedback.
+This project was created as part of a recruitment process for the FED society at KIIT University. Special thanks to all mentors and peers for their support and feedback.
 
 
 ---
